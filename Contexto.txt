@@ -1,0 +1,2 @@
+Mientras veo como funciona lo de GitHub voy a subir cada version nueva como carpetas por separado
+Si van a subir una nueva version del código porfa creen una nueva carpeta con un nombre de version diferente
