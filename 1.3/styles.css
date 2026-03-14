@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4F614E;
+}
+header {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #AE3B30;
+  color: black;
+  text-align: start;
+  
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#Equipo {
+ 
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-bottom: -10px;
+}
+
+#Asignatura {
+  font-size: large;
+  font-size: 1.1rem;
+  margin-left: 2px;
+  margin-bottom: -10px;
+}
+
+#Semestre {
+  font-size: medium;
+  font-size: 0.9rem;
+  margin-left: 2px;
+}
+
+.Nombres { 
+    font-size: large;
+}
+
+section {
+  background-color: #DDC9AD;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#frame_imagen {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#frame_datos{
+  background-color: #AE3B30;
+  padding: 5px;
+  margin: 5px;
+  width: 725px;
+  height: 100px;
+  margin-left:130px ;
+  margin-top: -115px;
+}
+
+#box_datos{
+  background-color: #DDC9AD;
+  height: 70px;
+}
