@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #222222;
+}
+
+#encabezado {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 20px;
+}
+
+#equipo {
+    margin: 0;
+}
+
+#asignatura,
+#semestre {
+    margin: 5px 0;
+}
+
+#presentacion {
+    padding: 20px;
+    text-align: center;
+}
+
+#integrantes {
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.frame_imagen {
+    width: 150px;
+    text-align: center;
+}
+
+.frame_datos {
+    flex: 1;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box_datos {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eff6ff;
+    border-radius: 8px;
+}
+
+#pie {
+    text-align: center;
+    padding: 15px;
+    background-color: #e5e7eb;
+    margin-top: 20px;
+}
