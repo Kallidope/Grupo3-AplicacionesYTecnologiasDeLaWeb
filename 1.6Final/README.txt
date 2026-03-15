@@ -1,6 +1,6 @@
 Grupo 3 - Aplicaciones y Tecnologías de la Web
 
-Repositorio académico del Grupo 3 para la asignatura **Aplicaciones y Tecnologías de la Web**.
+Repositorio académico del Grupo 3 para la asignatura "Aplicaciones y Tecnologías de la Web".
 
 Este proyecto corresponde al desarrollo del Laboratorio 01, elaborado en HTML5 y CSS3, con una estructura organizada para presentar la información general del equipo y el perfil de cada integrante.
 
