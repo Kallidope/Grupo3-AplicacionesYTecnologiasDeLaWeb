@@ -1,0 +1,109 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #4F614E;
+color: #111111;
+}
+
+#encabezado {
+background-color: #AE3B30;
+padding: 20px;
+color: black;
+}
+
+#encabezado h1 {
+margin: 0 0 8px 0;
+font-size: 2.2rem;
+}
+
+.subtitulo {
+margin: 4px 0;
+font-size: 1rem;
+}
+
+#menu {
+background-color: #DDC9AD;
+padding: 12px 20px;
+}
+
+#menu a {
+color: black;
+text-decoration: none;
+margin-right: 15px;
+font-weight: bold;
+}
+
+#menu a:hover {
+text-decoration: underline;
+}
+
+main {
+max-width: 950px;
+margin: 20px auto;
+padding: 15px;
+}
+
+.bloque {
+background-color: #DDC9AD;
+margin-bottom: 20px;
+padding: 18px;
+border-radius: 8px;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+margin-top: 0;
+font-size: 1.5rem;
+color: #7A241C;
+}
+
+h3 {
+margin-top: 0;
+font-size: 1.2rem;
+color: #AE3B30;
+}
+
+.imagen-equipo {
+width: 100%;
+max-width: 500px;
+display: block;
+margin: 10px auto 0 auto;
+border-radius: 8px;
+}
+
+.lista-integrantes li {
+margin-bottom: 8px;
+}
+
+.lista-integrantes a {
+color: #7A241C;
+text-decoration: none;
+font-weight: bold;
+}
+
+.lista-integrantes a:hover {
+text-decoration: underline;
+}
+
+.foto-perfil {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin: 10px auto 20px auto;
+}
+
+pre {
+background-color: #f4f4f4;
+padding: 12px;
+border-radius: 6px;
+overflow-x: auto;
+}
+
+#pie {
+background-color: #AE3B30;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
