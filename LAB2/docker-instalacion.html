@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instalación y ejecución de Docker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="encabezado">
+<h1>Instalación y ejecución de Docker</h1>
+<p class="subtitulo">Laboratorio 02</p>
+</header>
+
+<nav id="menu">
+<a href="index.html">Inicio</a>
+<a href="ignacio.html">Ignacio</a>
+<a href="matias.html">Matías</a>
+<a href="santiago.html">Santiago</a>
+<a href="gabriel.html">Gabriel</a>
+<a href="docker-instalacion.html">Instalación Docker</a>
+<a href="docker-comandos.html">Comandos Docker</a>
+</nav>
+
+<main>
+<section class="bloque">
+<h2>Proceso de instalación</h2>
+<ol>
+<li>Descargar Docker Desktop desde el sitio oficial.</li>
+<li>Ejecutar el instalador y aceptar la configuración recomendada.</li>
+<li>Reiniciar el equipo si el sistema lo solicita.</li>
+<li>Abrir Docker Desktop y esperar a que el estado sea correcto.</li>
+</ol>
+</section>
+
+<section class="bloque">
+<h2>Prueba inicial</h2>
+<p>Para comprobar que Docker quedó instalado correctamente, se utiliza el siguiente comando:</p>
+<pre>docker run hello-world</pre>
+<p>Este comando descarga una imagen de prueba y verifica que Docker esté funcionando.</p>
+</section>
+
+<section class="bloque">
+<h2>Construcción y ejecución del sitio</h2>
+<p>Una vez creado el sitio HTML, se construye la imagen del proyecto con:</p>
+<pre>docker build -t mi-web-html .</pre>
+
+<p>Luego se ejecuta el contenedor con:</p>
+<pre>docker run -d -p 8080:80 --name mi-web-container mi-web-html</pre>
+
+<p>Finalmente, el sitio se visualiza en el navegador ingresando a:</p>
+<pre>http://localhost:8080</pre>
+</section>
+</main>
+
+<footer id="pie">
+<p>Grupo 3 - Laboratorio 02</p>
+</footer>
+
+</body>
+</html>

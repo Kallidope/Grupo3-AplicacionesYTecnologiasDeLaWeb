@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos principales de Docker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="encabezado">
+        <h1>Comandos principales de Docker</h1>
+        <p class="subtitulo">Laboratorio 02</p>
+    </header>
+
+    <nav id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="ignacio.html">Ignacio</a>
+        <a href="matias.html">Matías</a>
+        <a href="santiago.html">Santiago</a>
+        <a href="gabriel.html">Gabriel</a>
+        <a href="docker-instalacion.html">Instalación Docker</a>
+        <a href="docker-comandos.html">Comandos Docker</a>
+    </nav>
+
+    <main>
+        <section class="bloque">
+            <h2>Resumen de comandos</h2>
+            <p>
+                En esta sección se presentan algunos de los comandos principales de Docker utilizados
+                para construir, ejecutar y administrar contenedores durante el desarrollo del laboratorio.
+            </p>
+        </section>
+
+        <section class="bloque">
+            <h2>Comandos básicos y su función</h2>
+
+            <h3>1. docker run hello-world</h3>
+            <pre>docker run hello-world</pre>
+            <p>Permite comprobar que Docker está instalado y funcionando correctamente.</p>
+
+            <h3>2. docker build -t mi-web-html .</h3>
+            <pre>docker build -t mi-web-html .</pre>
+            <p>Construye una imagen Docker a partir del Dockerfile ubicado en la carpeta del proyecto.</p>
+
+            <h3>3. docker run -d -p 8080:80 --name mi-web-container mi-web-html</h3>
+            <pre>docker run -d -p 8080:80 --name mi-web-container mi-web-html</pre>
+            <p>Ejecuta el contenedor en segundo plano y publica el sitio web en <strong>localhost:8080</strong>.</p>
+
+            <h3>4. docker ps</h3>
+            <pre>docker ps</pre>
+            <p>Muestra los contenedores que se encuentran actualmente en ejecución.</p>
+
+            <h3>5. docker ps -a</h3>
+            <pre>docker ps -a</pre>
+            <p>Muestra todos los contenedores, incluidos los que están detenidos.</p>
+
+            <h3>6. docker stop mi-web-container</h3>
+            <pre>docker stop mi-web-container</pre>
+            <p>Detiene un contenedor que se encuentra en funcionamiento.</p>
+
+            <h3>7. docker rm mi-web-container</h3>
+            <pre>docker rm mi-web-container</pre>
+            <p>Elimina un contenedor detenido para poder recrearlo nuevamente.</p>
+
+            <h3>8. docker images</h3>
+            <pre>docker images</pre>
+            <p>Lista las imágenes Docker disponibles en el equipo.</p>
+
+            <h3>9. docker logs mi-web-container</h3>
+            <pre>docker logs mi-web-container</pre>
+            <p>Permite revisar los registros o mensajes generados por el contenedor.</p>
+
+            <h3>10. docker pull nginx:alpine</h3>
+            <pre>docker pull nginx:alpine</pre>
+            <p>Descarga una imagen desde Docker Hub para utilizarla localmente.</p>
+        </section>
+
+        <section class="bloque">
+            <h2>Importancia de estos comandos</h2>
+            <p>
+                Estos comandos permiten gestionar el ciclo completo de trabajo con Docker:
+                verificar su instalación, construir imágenes, levantar contenedores, revisar
+                su estado y eliminarlos cuando sea necesario. Su uso facilita el despliegue
+                de sitios web de forma ordenada y controlada.
+            </p>
+        </section>
+    </main>
+
+    <footer id="pie">
+        <p>Grupo 3 - Laboratorio 02</p>
+    </footer>
+
+</body>
+</html>
