@@ -1,7 +1,7 @@
 # Grupo3-AplicacionesYTecnologiasDeLaWeb
 Repositorio académico del Grupo 3 para la asignatura "Aplicaciones y Tecnologías de la Web".
 
-Este proyecto corresponde al desarrollo del Laboratorio 01, elaborado en HTML5 y CSS3, con una estructura organizada para presentar la información general del equipo y el perfil de cada integrante.
+Este proyecto corresponde al desarrollo de los laboratorios del curso de Aplicaciones y Tecnologías de la Web, elaborado principalmente en HTML5 y CSS3, con una estructura organizada para presentar la información general del equipo y el perfil de cada integrante.
 
 Integrantes
 - Ignacio Matamoros Carvajal
